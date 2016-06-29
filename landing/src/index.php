@@ -93,18 +93,18 @@
 				<div class="row text-center margin-bottom-60">
 					<div class="col-md-4 md-margin-bottom-50">
 						<img alt="" src="assets/img/icons/flat/02.png" class="image-md margin-bottom-20">
-						<h1 class="title-v3-md margin-bottom-10">Unique technology</h1>
-						<p><b>GroWOW</b> solution allows farmers to establish own cloud farm and find clients around it</p>
+						<h1 class="title-v3-md margin-bottom-10"><?php getLoc("Unique technology");?></h1>
+						<p><b>GroWOW</b> <?php getLoc("solution allows farmers to establish own cloud farm and find clients around it");?></p>
 					</div>
 					<div class="col-md-4 flat-service md-margin-bottom-50">
 						<img alt="" src="assets/img/icons/flat/02.png" class="image-md margin-bottom-20">
-						<h2 class="title-v3-md margin-bottom-10">Attractive experiance</h2>
-						<p><b>GroWOW</b> mobile applications provide extraordinary farming platform and gameplay for clients</p>
+						<h2 class="title-v3-md margin-bottom-10"><?php getLoc("Attractive experience");?></h2>
+						<p><b>GroWOW</b> <?php getLoc("mobile applications provide extraordinary farming platform and gameplay for clients");?></p>
 					</div>
 					<div class="col-md-4 flat-service">
 						<img alt="" src="assets/img/icons/flat/02.png" class="image-md margin-bottom-20">
-						<h2 class="title-v3-md margin-bottom-10">Healthy harvest</h2>
-						<p><b>GroWOW</b> brings a new value for veggies as a specially grown food for you and your family</p>
+						<h2 class="title-v3-md margin-bottom-10"><?php getLoc("Healthy harvest");?></h2>
+						<p><b>GroWOW</b> <?php getLoc("brings a new value for veggies as a specially grown food for you and your family");?></p>
 					</div>
 				</div>
 				<!-- End Service Box -->
@@ -112,7 +112,7 @@
 
 			<div class="container content-sm">
 				<div class="headline-center margin-bottom-60">
-					<h2>GroWOW Mobile Application Features</h2>
+					<h2>GroWOW <?php getLoc("Mobile Application Features");?></h2>
 				<!--	<p>Integer odio ligula, tincidunt id volutpat et, imperdiet eget mi. Quisque laoreet porttitor turpis sed <a href="#">fermentum</a>. Nullam sodales blandit nisi, tristique tempor nunc hendrerit at. Sed posuere mollis orci</p> -->
 				</div><!--/end Headline Center-->
 
@@ -125,8 +125,8 @@
 								<i class="icon-magnifier-add"></i>
 							</span>
 						</a>
-						<div class="headline-left margin-bottom-10"><h3 class="headline-brd">Planting Field View</h3></div>
-						<small class="project-tag"><i class="fa fa-tag"></i><a href="#">Technology</a>, <a href="#">Mobile Application</a></small>
+						<div class="headline-left margin-bottom-10"><h3 class="headline-brd"><?php getLoc("Planting Field View");?></h3></div>
+						<small class="project-tag"><i class="fa fa-tag"></i><a href="#"><?php getLoc("Technology");?></a>, <a href="#"><?php getLoc("Mobile Application");?></a></small>
 					<!--	<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet </p> -->
 					</li>
 					<li class="col-sm-4 md-margin-bottom-50">
@@ -136,8 +136,8 @@
 								<i class="icon-magnifier-add"></i>
 							</span>
 						</a>
-						<div class="headline-left margin-bottom-10"><h3 class="headline-brd">Managing Field View</h3></div>
-						<small class="project-tag"><i class="fa fa-tag"></i><a href="#">Technology</a>, <a href="#">Mobile Application</a></small>
+						<div class="headline-left margin-bottom-10"><h3 class="headline-brd"><?php getLoc("Managing Field View");?></h3></div>
+						<small class="project-tag"><i class="fa fa-tag"></i><a href="#"><?php getLoc("Technology");?></a>, <a href="#"><?php getLoc("Mobile Application");?></a></small>
 					<!--	<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet </p> -->
 					</li>
 					<li class="col-sm-4">
@@ -147,8 +147,8 @@
 								<i class="icon-magnifier-add"></i>
 							</span>
 						</a>
-						<div class="headline-left margin-bottom-10"><h3 class="headline-brd">Live Stream Field View</h3></div>
-						<small class="project-tag"><i class="fa fa-tag"></i><a href="#">Technology</a>, <a href="#">Mobile Application</a></small>
+						<div class="headline-left margin-bottom-10"><h3 class="headline-brd"><?php getLoc("Live Stream Field View");?></h3></div>
+						<small class="project-tag"><i class="fa fa-tag"></i><a href="#"><?php getLoc("Technology");?></a>, <a href="#"><?php getLoc("Mobile Application");?></a></small>
 					<!--	<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet </p> -->
 					</li>
 				</ul>
@@ -162,11 +162,11 @@
 					<div class="row">
 						<div class="col-md-6">
 							<p>
-							Contact: Victor Radchenko CEO&Founder at GroWOW <br>Email: <a href="mailto:info@anybiz.com" class="">victor.rko@growow.org</a><br>Phone: +38 068 991 09 25
+                                <?php getLoc("Contact");?>: <?php getLoc("Victor Radchenko CEO&Founder at GroWOW");?> <br>Email: <a href="mailto:info@anybiz.com" class="">victor.rko@growow.org</a><br><?php getLoc("Phone");?>: +38 068 991 09 25
 							</p>
 <br>
 <p>
-2016 &copy; All Rights Reserved
+2016 &copy; <?php getLoc("All Rights Reserved");?>
 </p>
 						</div>
 

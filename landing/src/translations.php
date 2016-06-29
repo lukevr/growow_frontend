@@ -18,11 +18,10 @@ function getLoc($key)
     if ( !empty($words) )
     {
         $word = $words[$key];
-        return empty($word) ? $key : $word;
+        echo empty($word) ? $key : $word;
+        return;
     }
-    return $key;
+    echo $key;
+    return;
 }
-
-echo getLoc("WILL CONTACT YOU SOON");
-
 ?>
