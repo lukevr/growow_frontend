@@ -54,9 +54,9 @@
 		<!--Reg Block-->
 		<div class="reg-block">
 			<div class="reg-block-header">
-				<h2>User preregistration</h2>
-                <p>All fields are required</p>
-                <p>No data will be shared to 3rd party</p>
+				<h2><?php getLoc('User preregistration');?></h2>
+                <p><?php getLoc('All fields are required');?></p>
+                <p><?php getLoc('No data will be shared to 3rd party');?></p>
 			</div>
             <form class="cmxform" id="regform" method="post" action="sendform.php">
                 <!--<div class="margin-bottom-5">-->
