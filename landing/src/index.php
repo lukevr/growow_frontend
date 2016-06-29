@@ -70,16 +70,16 @@
 					<div id="cbp-lightbox" class="dp-none"></div>
 				</div>
 
-				<span class="promo-text-v1 color-light margin-bottom-10 animated fadeInUp wow" data-wow-duration="1.5s" data-wow-delay="1s">LIVE HAPPY FARMING FOR EVERYBODY
+				<span class="promo-text-v1 color-light margin-bottom-10 animated fadeInUp wow" data-wow-duration="1.5s" data-wow-delay="1s"><?php getLoc("LIVE HAPPY FARMING FOR EVERYBODY");?>
 
 				</span>
-                <h2 class="promo-text-v2 color-light animated fadeInUp wow margin-bottom-20" data-wow-duration="1.5s" data-wow-delay="1.5s">GROW YOUR OWN FOOD ONLINE	</h2>
+                <h2 class="promo-text-v2 color-light animated fadeInUp wow margin-bottom-20" data-wow-duration="1.5s" data-wow-delay="1.5s"><?php getLoc("GROW YOUR OWN FOOD ONLINE");?>	</h2>
 
 
 				<div class="animated fadeInUp wow" data-wow-duration="1.2s" data-wow-delay="2s">
-                    <a href="#content" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10">Learn More</a><br/><br/>
-                    <a href="reguser.html" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10">Preregister user </a>
-                    <a href="regfarmer.html" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10">Preregister farmer</a>
+                    <a href="#content" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10"><?php getLoc("Learn More");?></a><br/><br/>
+                    <a href="reguser.html" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10"><?php getLoc("Preregister user");?> </a>
+                    <a href="regfarmer.html" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10"><?php getLoc("Preregister farmer");?></a>
 				</div>
 			</div>
 		</div>
