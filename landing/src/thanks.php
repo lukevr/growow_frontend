@@ -49,14 +49,17 @@
 	<div class="wrapper">
 		<!-- Promo Block -->
 		<div class="promo-bg-img-v2 fullheight promo-bg-fixed">
+            <a href="?lang=ru" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Рус</a>
+            <a href="?lang=ua" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Укр</a>
+            <a href="?lang=eng" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Eng</a>
 			<div class="container valign__middle text-center" data-start="opacity: 1;" data-500="opacity: 0;">
 
-                <h2 class="promo-text-v2 color-light animated fadeInUp wow margin-bottom-20" data-wow-duration="1.5s" data-wow-delay="1.5s">THANKS FOR INTEREST</h2>
-                <h4 class="promo-text-v1 color-light animated fadeInUp wow margin-bottom-20" data-wow-duration="1.5s" data-wow-delay="1.5s">WILL CONTACT YOU SOON</h2>
+                <h2 class="promo-text-v2 color-light animated fadeInUp wow margin-bottom-20" data-wow-duration="1.5s" data-wow-delay="1.5s"><?php getLoc("THANKS FOR INTEREST");?></h2>
+                <h4 class="promo-text-v1 color-light animated fadeInUp wow margin-bottom-20" data-wow-duration="1.5s" data-wow-delay="1.5s"><?php getLoc("WILL CONTACT YOU SOON");?></h2>
 
 
 				<div class="animated fadeInUp wow" data-wow-duration="1.2s" data-wow-delay="2s">
-					<a href="index.html" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10">Back to site</a>
+					<a href="index.php" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10"><?php getLoc("Back to site");?></a>
 				</div>
 			</div>
 		</div>

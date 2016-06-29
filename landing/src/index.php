@@ -49,28 +49,6 @@
 
 <body class="header-fixed promo-padding-top sliding-panel-ini sliding-panel-flag-right">
 	<div class="wrapper">
-        <!-- Topbar -->
-        <div class="topbar">
-            <ul class="loginbar pull-right">
-                <li class="hoverSelector">
-                    <i class="fa fa-globe"></i>
-                    <a>Languages</a>
-                    <ul class="languages hoverSelectorBlock">
-                        <li class="active">
-                            <a href="#">English <i class="fa fa-check"></i></a>
-                        </li>
-                        <li><a href="#">Spanish</a></li>
-                        <li><a href="#">Russian</a></li>
-                        <li><a href="#">German</a></li>
-                    </ul>
-                </li>
-                <li class="topbar-devider"></li>
-                <li><a href="page_faq.html">Help</a></li>
-                <li class="topbar-devider"></li>
-                <li><a href="page_login.html">Login</a></li>
-            </ul>
-        </div>
-        <!-- End Topbar -->
 		<!--=== Header v6 ===-->
 		<div class="header-v6 header-border-bottom header-dark-dropdown header-sticky">
 			<!-- Navbar -->
@@ -82,7 +60,7 @@
 		<!-- Promo Block -->
 		<div class="promo-bg-img-v2 fullheight promo-bg-fixed">
             <a href="?lang=ru" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Рус</a>
-            <a href="?lang=ukr" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Укр</a>
+            <a href="?lang=ua" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Укр</a>
             <a href="?lang=eng" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Eng</a>
 			<div class="container valign__middle text-center" data-start="opacity: 1;" data-500="opacity: 0;">
 

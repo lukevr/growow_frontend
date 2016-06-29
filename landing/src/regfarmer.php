@@ -1,3 +1,6 @@
+<?php
+    require_once "translations.php";
+?>
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
@@ -45,12 +48,15 @@
 <body>
 	<!--=== Content Part ===-->
 	<div class="container">
+        <a href="?lang=ru" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Рус</a>
+        <a href="?lang=ua" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Укр</a>
+        <a href="?lang=eng" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Eng</a>
 		<!--Reg Block-->
 		<div class="reg-block">
 			<div class="reg-block-header">
-				<h2>Farmer preregistration</h2>
-                <p>All fields are required</p>
-                <p>No data will be shared to 3rd party</p>
+				<h2><?php getLoc("Farmer preregistration");?></h2>
+                <p><?php getLoc("All fields are required");?></p>
+                <p><?php getLoc("No data will be shared to 3rd party");?></p>
 			</div>
             <form class="cmxform" id="regform" method="post" action="sendform.php">
                 <!--<div class="margin-bottom-5">-->
@@ -63,23 +69,23 @@
                 <input hidden type="text" name="usertype" value="FARMER">
                 <div class="input-group margin-bottom-20">
                     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                    <input type="text" name="username" id="username" class="form-control" placeholder="Name" required>
+                    <input type="text" name="username" id="username" class="form-control" placeholder="<?php getLoc('Name');?>" required>
                 </div>
                 <div class="input-group margin-bottom-20">
                     <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                    <input type="email" name="email" id="email" class="form-control" placeholder="Email" required>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="<?php getLoc('Email');?>" required>
                 </div>
                 <div class="input-group margin-bottom-20">
                     <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Phone" required>
+                    <input type="text" name="phone" id="phone" class="form-control" placeholder="<?php getLoc('Phone');?>" required>
                 </div>
                 <div class="input-group margin-bottom-20">
                     <span class="input-group-addon"><i class="fa fa-home"></i></span>
-                    <input type="text" name="country" id="country" class="form-control" placeholder="Country" required>
+                    <input type="text" name="country" id="country" class="form-control" placeholder="<?php getLoc('Country');?>" required>
                 </div>
                 <div class="input-group margin-bottom-20">
                     <span class="input-group-addon"><i class="fa fa-home"></i></span>
-                    <input name="city" id="city" type="text" class="form-control" placeholder="City, village" required>
+                    <input name="city" id="city" type="text" class="form-control" placeholder="<?php getLoc('City, village');?> " required>
                 </div>
                 <hr>
 
@@ -92,7 +98,7 @@
 
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
-                        <button type="submit" class="btn-u btn-block">Register</button>
+                        <button type="submit" class="btn-u btn-block"><?php getLoc("Register");?></button>
                     </div>
                 </div>
             </form>

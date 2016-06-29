@@ -26,8 +26,8 @@
       <file leaf-file-name="page_contact4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page_contact4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625">
-              <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+            <state vertical-scroll-proportion="-20.625">
+              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -43,10 +43,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="translations.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.25">
+              <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regfarmer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/regfarmer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1467218150000" expanded="true" signature="3746:3989" placeholder="..." />
+                <marker date="1467218150000" expanded="true" signature="4048:4296" placeholder="..." />
+                <marker date="1467218150000" expanded="true" signature="4355:4604" placeholder="..." />
+                <marker date="1467218150000" expanded="true" signature="4996:5213" placeholder="..." />
+                <marker date="1467218150000" expanded="true" signature="5056:5190" placeholder="..." />
+                <marker date="1467218150000" expanded="true" signature="6197:6311" placeholder="..." />
+                <marker date="1467218150000" expanded="true" signature="6324:6448" placeholder="..." />
+                <marker date="1467218150000" expanded="true" signature="6671:6788" placeholder="..." />
+                <marker date="1467218150000" expanded="true" signature="6709:6776" placeholder="{...}" />
+                <marker date="1467218150000" expanded="true" signature="6821:6954" placeholder="..." />
+                <marker date="1467218150000" expanded="true" signature="6839:6899" placeholder="[...]" />
+                <marker date="1467218150000" expanded="true" signature="6901:6942" placeholder="{&quot;fade&quot;: 1000...}" />
+                <marker date="1467218150000" expanded="true" signature="7240:7432" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reguser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reguser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.916667">
+              <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thanks.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/thanks.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32125205">
+              <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="translations.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/translations.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29654035">
+            <state vertical-scroll-proportion="-7.5">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#6#94#0#PHP" expanded="true" />
@@ -67,7 +121,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/registration.html" />
         <option value="$PROJECT_DIR$/src/registration.phtml" />
-        <option value="$PROJECT_DIR$/src/regfarmer.html" />
         <option value="$PROJECT_DIR$/src/sendform.php" />
         <option value="$PROJECT_DIR$/src/locale/en_US/messages.po" />
         <option value="$PROJECT_DIR$/src/locale/ru_RU/messages.po" />
@@ -76,9 +129,13 @@
         <option value="$PROJECT_DIR$/src/locale/ru.php" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/thanks.html" />
-        <option value="$PROJECT_DIR$/src/index.php" />
         <option value="$PROJECT_DIR$/src/locale/ua.php" />
         <option value="$PROJECT_DIR$/src/translations.php" />
+        <option value="$PROJECT_DIR$/src/index.php" />
+        <option value="$PROJECT_DIR$/src/regfarmer.html" />
+        <option value="$PROJECT_DIR$/src/regfarmer.php" />
+        <option value="$PROJECT_DIR$/src/reguser.php" />
+        <option value="$PROJECT_DIR$/src/thanks.php" />
       </list>
     </option>
   </component>
@@ -195,11 +252,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.accepted" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.regfarmer.html">
     <configuration default="false" name="registration.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Landing/src/registration.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="registration.phtml" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Landing/src/registration.phtml">
       <method />
     </configuration>
     <configuration default="false" name="thanks.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Landing/src/thanks.html">
@@ -209,6 +263,9 @@
       <method />
     </configuration>
     <configuration default="false" name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/index.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="regfarmer.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Landing/src/regfarmer.html">
       <method />
     </configuration>
     <configuration default="true" type="#PerlConfigurationType" factoryName="Perl">
@@ -655,18 +712,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.registration.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.registration.phtml" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.thanks.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="4" class="java.lang.String" itemvalue="PHP Script.index.php" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.thanks.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.index.php" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.regfarmer.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.index.php" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.thanks.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.registration.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.registration.phtml" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.regfarmer.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.index.php" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.thanks.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.registration.html" />
       </list>
     </recent_temporary>
   </component>
@@ -683,12 +740,12 @@
       <workItem from="1467056641130" duration="8353000" />
       <workItem from="1467122291656" duration="8784000" />
       <workItem from="1467193705253" duration="1629000" />
-      <workItem from="1467197648041" duration="10497000" />
+      <workItem from="1467197648041" duration="11533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29263000" />
+    <option name="totallyTimeSpent" value="30299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="23" width="1222" height="777" extended-state="0" />
@@ -877,22 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page_contact4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.625">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/locale/ru.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37067544">
@@ -909,21 +950,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.php">
+    <entry file="file://$PROJECT_DIR$/src/page_contact4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07413509">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="-20.625">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/translations.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29654035">
+        <state vertical-scroll-proportion="-7.5">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#6#94#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regfarmer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1467218150000" expanded="true" signature="3746:3989" placeholder="..." />
+            <marker date="1467218150000" expanded="true" signature="4048:4296" placeholder="..." />
+            <marker date="1467218150000" expanded="true" signature="4355:4604" placeholder="..." />
+            <marker date="1467218150000" expanded="true" signature="4996:5213" placeholder="..." />
+            <marker date="1467218150000" expanded="true" signature="5056:5190" placeholder="..." />
+            <marker date="1467218150000" expanded="true" signature="6197:6311" placeholder="..." />
+            <marker date="1467218150000" expanded="true" signature="6324:6448" placeholder="..." />
+            <marker date="1467218150000" expanded="true" signature="6671:6788" placeholder="..." />
+            <marker date="1467218150000" expanded="true" signature="6709:6776" placeholder="{...}" />
+            <marker date="1467218150000" expanded="true" signature="6821:6954" placeholder="..." />
+            <marker date="1467218150000" expanded="true" signature="6839:6899" placeholder="[...]" />
+            <marker date="1467218150000" expanded="true" signature="6901:6942" placeholder="{&quot;fade&quot;: 1000...}" />
+            <marker date="1467218150000" expanded="true" signature="7240:7432" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reguser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.916667">
+          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thanks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32125205">
+          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>

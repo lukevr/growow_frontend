@@ -4,7 +4,7 @@ require 'PHPMailerAutoload.php';
 //session_start();
 //if( isset($_POST['email']) )
 {
-    define('LOGIN', 'growowpostman1');
+    define('LOGIN', 'growowpostman');
     define('PASSWORD', 'UhjdjdGjcnvfy');
     define('SENDER', 'growowpostman@gmail.com');
     define('RECEPIENT', 'newuser@growow.org');
@@ -62,10 +62,10 @@ require 'PHPMailerAutoload.php';
 
     echo "Message has been sent";
     header('Status: 301 Moved Permanently', false, 301);
-    header('Location: thanks.html');
+    header('Location: thanks.php');
     exit();
 }
     header('Status: 301 Moved Permanently', false, 301);
-    header('Location: index.html');
+    header('Location: index.php');
 ?>
 
