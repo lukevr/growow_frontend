@@ -36,7 +36,7 @@
     "Victor Radchenko CEO&Founder at GroWOW" =>  "Вiктор Радченко, директор та Засновник GroWOW",
     "Phone" =>  "Телефон",
     "All Rights Reserved" =>  "Усi права захищено",
-        "Healthy harvest" => "Здоровий врожай"
+        "Healthy harvest" => "Корисний врожай"
 );
 
 ?>

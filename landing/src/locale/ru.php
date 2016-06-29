@@ -17,7 +17,7 @@
     "City, village" =>  "Город, поселок",
     "Register" =>  "Регистрация",
     "LIVE HAPPY FARMING FOR EVERYBODY" =>  "НАСТОЯЩАЯ ФЕРМА ДЛЯ КАЖДОГО",
-    "GROW YOUR OWN FOOD ONLINE" =>  "ВЫРСТИ ПРОДУКТЫ СВОИМИ РУКАМИ",
+    "GROW YOUR OWN FOOD ONLINE" =>  "ВЫРАСТИ ПРОДУКТЫ СВОИМИ РУКАМИ",
     "Learn More" =>  "Узнать больше",
     "Preregister user" =>  "Предварительная регистрация пользователя",
     "Preregister farmer" =>  "Предварительная регистрация фермера",
