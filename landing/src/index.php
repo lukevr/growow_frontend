@@ -88,10 +88,37 @@
 		</div>
 		<!-- End Promo Block -->
 
+        <!--=== Preregister Block v6 ===-->
+        <div class="container content-sm">
+            <div class="headline-center margin-bottom-30">
+                <h2><?php getLoc("PREREGISTER TODAY");?></h2>
+            </div>
+            <div class="row service-block-v6">
+                <div class="col-md-6 md-margin-bottom-50">
+                    <i class="icon-custom rounded-x icon-color-u icon-line icon-magic-wand"></i>
+                    <div class="service-desc">
+                        <h2><?php getLoc("Preregistered users");?></h2>
+                        <p><?php getLoc("On service launch choosen winners from preregistered users will receive 3 month subscriptions for the service.");?></p>
+                        <a href="reguser.php"><?php getLoc("Preregister user");?></a>
+                    </div>
+                </div>
+                <div class="col-md-6 md-margin-bottom-50">
+                    <i class="icon-custom rounded-x icon-color-u icon-line icon-magic-wand"></i>
+                    <div class="service-desc">
+                        <h2><?php getLoc("Preregistered farmers");?></h2>
+                        <p><?php getLoc("On service launch choosen winners from preregistered farmers will receive free hardware boxs to eqip farm field.");?></p>
+                        <a href="regfarmer.php"><?php getLoc("Preregister farmer");?></a>
+                    </div>
+                </div>
+            </div><!--/end row-->
+        </div>
+        <!--=== Preregister Block v6 ===-->
+
 		<!--=== Content Part ===-->
 		<div class="content-md">
-<a name="content"></a>
-			<div class="container">
+            <a name="content"></a>
+			<div class="container bg-color-light">
+                <br><br><br>
 				<!-- Service Box -->
 				<div class="row text-center margin-bottom-60">
 					<div class="col-md-4 md-margin-bottom-50">
@@ -157,8 +184,23 @@
 				</ul>
 				<!-- End Portfolio Box -->
 			</div><!--/end container-->
-		<!-- End Content Part -->
+            <!-- Video Blocks -->
+            <div class="container content-sm">
+                <div class="headline-center margin-bottom-60">
+                    <h2>GroWOW <?php getLoc("Augmented Reality Playground");?></h2>
+                    <p><?php getLoc("Yes, you will have to protect your harvest against beasts and creatures to get bonuses as additional veggies and delivery cost! ;)");?></p>
+                </div><!--/end Headline Center-->
 
+
+                <!-- Youtube Video -->
+                <div class="col-md-12">
+                    <div class="responsive-video">
+                        <iframe width="100%" src="//www.youtube.com/embed/fYNyPNH-3OQ" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- End Youtube Video -->
+            </div>
+            <!-- End Video Blocks -->
 
 			<div class="copyright">
 				<div class="container">
@@ -177,6 +219,7 @@
 				</div>
 			</div><!--/copyright-->
 	</div><!--/wrapper-->
+    <!-- End Content Part -->
 
 	<!-- Sliding Panel -->
 	<div class="sliding-panel bg-color-darker">
