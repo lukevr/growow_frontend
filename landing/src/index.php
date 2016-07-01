@@ -59,9 +59,9 @@
 
 		<!-- Promo Block -->
 		<div class="promo-bg-img-v2 fullheight promo-bg-fixed">
-            <a href="?lang=ru" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Рус</a>
-            <a href="?lang=ua" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Укр</a>
             <a href="?lang=eng" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Eng</a>
+            <a href="?lang=ua" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Укр</a>
+            <a href="?lang=ru" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Рус</a>
 			<div class="container valign__middle text-center" data-start="opacity: 1;" data-500="opacity: 0;">
 
                 <h2 class="promo-text-v5 color-light animated fadeInUp wow margin-bottom-35" data-wow-duration="1.5s" data-wow-delay="1.5s">GROWOW.ORG</h2>
@@ -89,9 +89,10 @@
 		<!-- End Promo Block -->
 
         <!--=== Preregister Block v6 ===-->
+<!--        <a name="content"></a>-->
         <div class="container content-sm">
             <div class="headline-center margin-bottom-30">
-                <h2><?php getLoc("PREREGISTER TODAY");?></h2>
+                <h2 id="content"><?php getLoc("PREREGISTER TODAY");?></h2>
             </div>
             <div class="row service-block-v6">
                 <div class="col-md-6 md-margin-bottom-50">
@@ -116,7 +117,6 @@
 
 		<!--=== Content Part ===-->
 		<div class="content-md">
-            <a name="content"></a>
 			<div class="container bg-color-light">
                 <br><br><br>
 				<!-- Service Box -->
@@ -294,5 +294,22 @@
 		<script src="assets/plugins/placeholder-IE-fixes.js"></script>
 		<![endif]-->
 
+        <!-- Smooth scrolling-->
+        <script>
+            $(function() {
+                $('a[href*="#"]:not([href="#"])').click(function() {
+                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                        if (target.length) {
+                            $('html, body').animate({
+                                scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                        }
+                    }
+                });
+            });
+        </script>
 	</body>
 	</html>
