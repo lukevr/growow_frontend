@@ -45,7 +45,7 @@
         "On service launch choosen winners from preregistered users will receive 3 month subscriptions for the service." => "З пуском сервiсу серед раннiх корустивачiв будуть розiграно тримiсячнi пiдписки на послуги сервiсу!",
         "Preregister" => "Встигнути",
         "Preregistered farmers" => "Раннi фермери",
-        "On service launch choosen winners from preregistered farmers will receive free hardware boxs to eqip farm field." => "З пуском сервiсу серед раннiх фермерiв будуть розiграно комплекти для обладнання ферми!"
+        "On service launch choosen winners from preregistered farmers will receive free hardware boxes to equip farm field." => "З пуском сервiсу серед раннiх фермерiв будуть розiграно комплекти для обладнання ферми!"
 );
 
 ?>

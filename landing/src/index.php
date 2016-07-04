@@ -107,7 +107,7 @@
                     <i class="icon-custom rounded-x icon-color-u icon-line icon-magic-wand"></i>
                     <div class="service-desc">
                         <h2><?php getLoc("Preregistered farmers");?></h2>
-                        <p><?php getLoc("On service launch choosen winners from preregistered farmers will receive free hardware boxs to eqip farm field.");?></p>
+                        <p><?php getLoc("On service launch choosen winners from preregistered farmers will receive free hardware boxes to equip farm field.");?></p>
                         <a href="regfarmer.php"><?php getLoc("Preregister farmer");?></a>
                     </div>
                 </div>
