@@ -6,7 +6,7 @@
     "WILL CONTACT YOU SOON" =>  "НЕЗАБАРОМ МИ З ВАМИ ЗВ'ЯЖЕМОСЬ",
     "Back to site" =>  "Повернутися на сайт",
     "Live happy farming online" =>  "Твоя власна онлайн ферма",
-    "Farmer preregistration" =>  "Реєстрацiя фермера",
+    "Bonus For Preregistration!" =>  "Отримай бонус за реєстрацію!",
     "All fields are required" =>  "Усi поля обов'язковi",
     "Attractive experience" => "Веселий та незабутнiй досвiд",
     "Live Stream Field View" => "Живе вiдео з власного города",
@@ -20,8 +20,8 @@
     "LIVE HAPPY FARMING FOR EVERYBODY" =>  "СПРАВЖНЯ ОНЛАЙН ФЕРМА",
     "GROW YOUR OWN FOOD ONLINE" =>  "ВИРОЩУЙ ВЛАСНЕ У ХМАРІ",
     "Learn More" =>  "Дiзнатися бiльше",
-    "Preregister user" =>  "Реєстрацiя клієнта",
-    "Preregister farmer" =>  "Реєстрацiя фермера",
+    "Register client" =>  "Реєстрацiя клієнта",
+    "Register farmer" =>  "Реєстрацiя фермера",
     "Preliminar registration" =>  "Попередня реєстрацiя",
     "User preregistration" =>  "Новий користувач",
     "Unique technology" =>  "Унiкальная технологiя",
@@ -34,18 +34,35 @@
     "Mobile Application" =>  "Мобиiльний додаток",
     "Managing Field View" =>  "Керування фермою",
     "Contact" =>  "Контакти",
-    "Victor Radchenko CEO&Founder at GroWOW" =>  "Вiктор Радченко, директор та засновник GroWOW",
+    "Victor Radchenko - CEO&Founder" =>  "Вiктор Радченко - директор та засновник",
     "Phone" =>  "Телефон",
     "All Rights Reserved" =>  "Усi права захищено",
         "Healthy harvest" => "Корисний врожай",
     "Augmented Reality Playground" => "ігрова розширена реальність",
     "Yes, you will have to protect your harvest against beasts and creatures to get bonuses as additional veggies and delivery cost! ;)" => "Так, вам доведеться захищати врожай від різноманітних шкідникив, щоб заробити бонуси на додаткову продукцію і доставку! ;)",
     "PREREGISTER TODAY" => 'ЗАРЕЄТРУЙСЯ ЗАЗДАЛЕГIДЬ',
-        "Preregistered users" => "Раннi користувачi",
+        "Early clients" => "Раннi клієнти",
         "On service launch choosen winners from preregistered users will receive 3 month subscriptions for the service." => "З пуском сервiсу серед раннiх корустивачiв будуть розiграно тримiсячнi пiдписки на послуги сервiсу!",
         "Preregister" => "Встигнути",
-        "Preregistered farmers" => "Раннi фермери",
-        "On service launch choosen winners from preregistered farmers will receive free hardware boxes to equip farm field." => "З пуском сервiсу серед раннiх фермерiв будуть розiграно комплекти для обладнання ферми!"
+        "Early farmers" => "Раннi фермери",
+        "On service launch choosen winners from preregistered farmers will receive free hardware boxes to equip farm field." => "З пуском сервiсу серед раннiх фермерiв будуть розiграно комплекти для обладнання ферми!",
+
+    "SAIL HO!" => "НА АБОРДАЖ!",
+    "REGISTER TODAY AND GET BONUS!" => "ЗАРЕЄСТРУЙСЯ СЬОГОДНІ І ОТРИМАЙ БОНУС!",
+    "Vision and Goals" => "ІДЕЯ ТА ЦІЛІ",
+    "Contact Us" => "Кoнтакти",
+    "AS A SERVICE - VIDEO PRESENTATION" => "СЕРВІС - ВІДЕО ПРЕЗЕНТАЦІЯ",
+
+    "About Us" => "Про нас",
+    "Agriculture startup aiming to bring an new way of producing healthy food for every city resident and populate agriculture farms services worldwide." 
+	=> "Агро стартап, що має на меті створення нової вартості корисної сільгосппродукції, як такої що вирощена персонально для вас і вашої родини, а також популяризація агро-сервісу локальних ферм на світові ринки.",
+    "Kyiv, Ukraine" => "Київ, Україна",
+    "Time Lapse" => "прискорене відео",
+    "Watch and share your farm time lapse!" => "Дивись і поширюй пріскорене відео з власної ферми",
+    "" => ""
+
+
+
 );
 
 ?>

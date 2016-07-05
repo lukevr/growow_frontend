@@ -64,10 +64,10 @@
             <a href="?lang=ru" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Рус</a>
 			<div class="container valign__middle text-center" data-start="opacity: 1;" data-500="opacity: 0;">
 
-                <h2 class="promo-text-v5 color-light animated fadeInUp wow margin-bottom-35" data-wow-duration="1.5s" data-wow-delay="1.5s">GROWOW.ORG</h2>
+                <h2 class="promo-text-v5 color-light animated fadeInUp wow margin-bottom-35" data-wow-duration="1.5s" data-wow-delay="1.5s">GROWOW <?php getLoc("AS A SERVICE - VIDEO PRESENTATION");?></h2>
 
 				<div class="margin-bottom-20">
-					<a class="promo-video-icon-wrap color-light rounded-x animated fadeInUp wow cbp-lightbox" data-wow-duration="2s" data-wow-delay=".5s" data-title="Video Presentation" href="https://www.youtube.com/watch?v=iyNqgtJ1nLU&autoplay=1">
+					<a class="promo-video-icon-wrap color-light rounded-x animated fadeInUp wow cbp-lightbox" data-wow-duration="2s" data-wow-delay=".5s" data-title="Video Presentation" href="<?php getLoc("https://www.youtube.com/watch?v=iyNqgtJ1nLU&autoplay=1&rel=0");?>">
 						<i class="promo-video-icon icon-control-play"></i>
 					</a>
 					<div id="cbp-lightbox" class="dp-none"></div>
@@ -80,46 +80,25 @@
 
 
 				<div class="animated fadeInUp wow" data-wow-duration="1.2s" data-wow-delay="2s">
-                    <a href="#content" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10"><?php getLoc("Learn More");?></a><br/><br/>
-                    <a href="reguser.php" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10"><?php getLoc("Preregister user");?> </a>
-                    <a href="regfarmer.php" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10"><?php getLoc("Preregister farmer");?></a>
+                    <a href="#content" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10"><?php getLoc("Learn More");?></a>
+                    <a href="#register" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10"><?php getLoc("Bonus For Preregistration!");?> </a>
+                <!--    <a href="#register" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10"><?php getLoc("Preregister farmer");?>	</a>	 -->
 				</div>
 			</div>
 		</div>
 		<!-- End Promo Block -->
 
-        <!--=== Preregister Block v6 ===-->
-<!--        <a name="content"></a>-->
-        <div class="container content-sm">
-            <div class="headline-center margin-bottom-30">
-                <h2 id="content"><?php getLoc("PREREGISTER TODAY");?></h2>
-            </div>
-            <div class="row service-block-v6">
-                <div class="col-md-6 md-margin-bottom-50">
-                    <i class="icon-custom rounded-x icon-color-u icon-line icon-magic-wand"></i>
-                    <div class="service-desc">
-                        <h2><?php getLoc("Preregistered users");?></h2>
-                        <p><?php getLoc("On service launch choosen winners from preregistered users will receive 3 month subscriptions for the service.");?></p>
-                        <a href="reguser.php"><?php getLoc("Preregister user");?></a>
-                    </div>
-                </div>
-                <div class="col-md-6 md-margin-bottom-50">
-                    <i class="icon-custom rounded-x icon-color-u icon-line icon-magic-wand"></i>
-                    <div class="service-desc">
-                        <h2><?php getLoc("Preregistered farmers");?></h2>
-                        <p><?php getLoc("On service launch choosen winners from preregistered farmers will receive free hardware boxes to equip farm field.");?></p>
-                        <a href="regfarmer.php"><?php getLoc("Preregister farmer");?></a>
-                    </div>
-                </div>
-            </div><!--/end row-->
-        </div>
-        <!--=== Preregister Block v6 ===-->
 
 		<!--=== Content Part ===-->
-		<div class="content-md">
+		<div id="content" class="content-md">
 			<div class="container bg-color-light">
                 <br><br><br>
 				<!-- Service Box -->
+				<div class="headline-center margin-bottom-60">
+					<h2>GroWOW <?php getLoc("Vision and Goals");?></h2>
+				<!--	<p>Integer odio ligula, tincidunt id volutpat et, imperdiet eget mi. Quisque laoreet porttitor turpis sed <a href="#">fermentum</a>. Nullam sodales blandit nisi, tristique tempor nunc hendrerit at. Sed posuere mollis orci</p> -->
+				</div><!--/end Headline Center-->
+
 				<div class="row text-center margin-bottom-60">
 					<div class="col-md-4 md-margin-bottom-50">
 						<img alt="" src="assets/img/icons/flat/02.png" class="image-md margin-bottom-20">
@@ -140,7 +119,7 @@
 				<!-- End Service Box -->
 			</div><!--/container -->
 
-			<div class="container content-sm">
+			<div class="container content">
 				<div class="headline-center margin-bottom-60">
 					<h2>GroWOW <?php getLoc("Mobile Application Features");?></h2>
 				<!--	<p>Integer odio ligula, tincidunt id volutpat et, imperdiet eget mi. Quisque laoreet porttitor turpis sed <a href="#">fermentum</a>. Nullam sodales blandit nisi, tristique tempor nunc hendrerit at. Sed posuere mollis orci</p> -->
@@ -184,8 +163,28 @@
 				</ul>
 				<!-- End Portfolio Box -->
 			</div><!--/end container-->
+
             <!-- Video Blocks -->
-            <div class="container content-sm">
+            <div class="container content">
+                <div class="headline-center margin-bottom-60">
+                    <h2>GroWOW <?php getLoc("Time Lapse");?></h2>
+                    <p><?php getLoc("Watch and share your farm time lapse!");?></p>
+                </div><!--/end Headline Center-->
+
+
+                <!-- Youtube Video -->
+                <div class="col-md-12">
+                    <div class="responsive-video">
+                        <iframe width="100%" src="//www.youtube.com/embed/b5SsCAcl3Xk?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- End Youtube Video -->
+            </div>
+            <!-- End Video Blocks -->
+
+
+            <!-- Video Blocks -->
+            <div class="container content">
                 <div class="headline-center margin-bottom-60">
                     <h2>GroWOW <?php getLoc("Augmented Reality Playground");?></h2>
                     <p><?php getLoc("Yes, you will have to protect your harvest against beasts and creatures to get bonuses as additional veggies and delivery cost! ;)");?></p>
@@ -195,30 +194,173 @@
                 <!-- Youtube Video -->
                 <div class="col-md-12">
                     <div class="responsive-video">
-                        <iframe width="100%" src="//www.youtube.com/embed/fYNyPNH-3OQ" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="100%" src="//www.youtube.com/embed/fYNyPNH-3OQ?rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
                 <!-- End Youtube Video -->
             </div>
             <!-- End Video Blocks -->
+</br>
+</br>
 
-			<div class="copyright">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-							<p>
-                                <?php getLoc("Contact");?>: <?php getLoc("Victor Radchenko CEO&Founder at GroWOW");?> <br>Email: <a href="mailto:info@anybiz.com" class="">victor.rko@growow.org</a><br><?php getLoc("Phone");?>: +38 068 991 09 25
-							</p>
-<br>
-<p>
-2016 &copy; <?php getLoc("All Rights Reserved");?>
-</p>
-						</div>
+	    <!--=== Team v7 ===-->
+	    <div class="container-fluid">
+        <div class="container bg-color-light content">
+            <div class="headline-center margin-bottom-30">
+                <h2><?php getLoc("SAIL HO!");?></h2>
+            </div>
 
-					</div>
-				</div>
-			</div><!--/copyright-->
-	</div><!--/wrapper-->
+		<!-- Team Blcoks -->
+		<div class="row team-v7 no-gutter equal-height-columns">
+		    <div class="col-md-6 team-arrow-right">
+			<div class="dp-table">
+			    <div class="equal-height-column dp-table-cell team-v7-in" style="height: 555px;">
+				<span class="team-v7-name">Victor Radchenko</span>
+				<span class="team-v7-position">Founder / CEO</span>
+			<!--	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget varius leo, at elementum eros. Fusce tristique, ipsum egestas fermentum imperdiet, ex nunc iaculis sem, a semper augue turpis ut nulla. Nam condimentum arcu eu diam gravida cursus. Morbi ante eros, lobortis sit amet tempus in, fermentum vitae neque.</p> -->
+				<ul class="list-inline social-icons-v1">
+				    <li><a href="https://ua.linkedin.com/in/victorradchenko"><i class="fa fa-linkedin"></i></a></li>
+				</ul>
+			    </div>
+			</div>
+		    </div>
+		    <div class="col-md-6 team-v7-img">
+			<img class="img-responsive full-width equal-height-column" src="img/victor.jpg" alt="" style="height: 555px;">
+		    </div>
+		</div>
+		<!-- End Team Blcoks -->
+
+		<!-- Team Blcoks -->
+		<div class="row team-v7 no-gutter equal-height-columns">
+		    <div class="col-md-6 col-md-push-6 team-arrow-left">
+			<div class="dp-table">
+			    <div class="equal-height-column dp-table-cell team-v7-in" style="height: 555px;">
+				<span class="team-v7-name">Vyacheslav Zhelobkov</span>
+				<span class="team-v7-position">Co-Founder / CTO</span>
+	<!--			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget varius leo, at elementum eros. Fusce tristique, ipsum egestas fermentum imperdiet, ex nunc iaculis sem, a semper augue turpis ut nulla. Nam condimentum arcu eu diam gravida cursus. Morbi ante eros, lobortis sit amet tempus in, fermentum vitae neque.</p> -->
+				<ul class="list-inline social-icons-v1">
+				    <li><a href="https://www.linkedin.com/in/zhelobkov"><i class="fa fa-linkedin"></i></a></li>
+				</ul>
+			    </div>
+			</div>
+		    </div>
+		    <div class="col-md-6 col-md-pull-6 team-v7-img">
+			<img class="img-responsive full-width equal-height-column" src="img/slava.jpg" alt="" style="height: 555px;">
+		    </div>
+		</div>
+		<!-- End Team Blcoks -->
+	    </div>
+
+</br>
+</br>
+        <!--=== Preregister Block v6 ===-->
+<!--        <a name="register"></a>-->
+        <div class="container bg-color-growow content">
+            <div class="headline-center margin-bottom-30">
+                <h2 id="register"><?php getLoc("REGISTER TODAY AND GET BONUS!");?></h2>
+            </div>
+            <div class="row service-block-v6">
+                <div class="col-md-6 md-margin-bottom-50">
+                    <i class="icon-custom rounded-x icon-color-u icon-line icon-magic-wand"></i>
+                    <div class="service-desc">
+                        <h2><?php getLoc("Early clients");?></h2>
+                        <p><?php getLoc("On service launch choosen winners from preregistered users will receive 3 month subscriptions for the service.");?></p>
+                        <a href="reguser.php"><?php getLoc("Register client");?></a>
+                    </div>
+                </div>
+                <div class="col-md-6 md-margin-bottom-50">
+                    <i class="icon-custom rounded-x icon-color-u icon-line icon-magic-wand"></i>
+                    <div class="service-desc">
+                        <h2><?php getLoc("Early farmers");?></h2>
+                        <p><?php getLoc("On service launch choosen winners from preregistered farmers will receive free hardware boxes to equip farm field.");?></p>
+                        <a href="regfarmer.php"><?php getLoc("Register farmer");?></a>
+                    </div>
+                </div>
+            </div><!--/end row-->
+        </div>
+
+
+
+
+        <!--=== Preregister Block v6 ===-->
+	</br>
+	</br>
+
+
+	<!--=== Footer Version 1 ===-->
+	<div class="footer-v1">
+	    <div class="footer">
+		<div class="container">
+		    <div class="row">
+			<!-- About -->
+			<div class="col-md-9 md-margin-bottom-40">
+			<div class="headline"><h2><?php getLoc("About Us");?></h2></div>
+		<!--	    <a href="index.php"><img id="logo-footer" class="footer-logo" src="assets/img/logo2-default.png" alt=""></a>  -->
+			    <p><?php getLoc("Agriculture startup aiming to bring an new way of producing healthy food for every city resident and populate agriculture farms services worldwide.");?></p>
+
+			</div><!--/col-md-3-->
+			<!-- End About -->
+
+			<!-- Address -->
+			<div class="col-md-3 map-img md-margin-bottom-40">
+			    <div class="headline"><h2><?php getLoc("Contact Us");?></h2></div>
+			    <address class="md-margin-bottom-40">
+				<?php getLoc("Victor Radchenko - CEO&Founder");?> <br />
+				<?php getLoc("Kyiv, Ukraine");?> <br />
+				<?php getLoc("Phone");?>: +38 068 991 09 25 <br />
+				<?php getLoc("Email");?>: <a href="mailto:victor.rko@growow.org" class="">victor.rko@growow.org</a>
+			    </address>
+			</div><!--/col-md-3-->
+			<!-- End Address -->
+		    </div>
+		</div>
+	    </div><!--/footer-->
+
+	    <div class="copyright">
+		<div class="container">
+		    <div class="row">
+			<div class="col-md-6">
+			    <p>
+				2016 &copy; GroWOW <?php getLoc("All Rights Reserved");?>.
+			<!--	<a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> -->
+			    </p>
+			</div>
+
+			<!-- Social Links -->
+			<div class="col-md-6">
+			    <ul class="footer-socials list-inline">
+				<li>
+				    <a href="https://www.facebook.com/growow/" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+					<i class="fa fa-facebook"></i>
+				    </a>
+				</li>
+			<!--	<li>
+				    <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Plus">
+					<i class="fa fa-google-plus"></i>
+				    </a>
+				</li>
+			-->
+				<li>
+				    <a href="https://ua.linkedin.com/in/victorradchenko" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
+					<i class="fa fa-linkedin"></i>
+				    </a>
+				</li>
+			    </ul>
+			</div>
+			<!-- End Social Links -->
+		    </div>
+		</div>
+	    </div><!--/copyright-->
+	</div>
+	<!--=== End Footer Version 1 ===-->
+
+
+
+
+	</div>
+    </div>
+
+
     <!-- End Content Part -->
 
 	<!-- Sliding Panel -->
@@ -311,5 +453,15 @@
                 });
             });
         </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80240059-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 	</body>
 	</html>
