@@ -6,6 +6,7 @@
  * Time: 12:49
  */
 
+include "./locale/default.php";
 // try to retrieve and set the locale
 $lang="en";
 
@@ -33,13 +34,19 @@ if( file_exists("./locale/".$lang.".php") ) {
 function getLoc($key)
 {
     global $words;
-    if ( !empty($words) )
+
+    // quick fix for default translation
+    //TODO: make more soficticated solution
+    if( empty($words) || empty($words[$key]) )
     {
-        $word = $words[$key];
-        echo empty($word) ? $key : $word;
+        global $defaults;
+        $oneWord = $defaults[$key];
+        echo empty($oneWord) ? $key : $oneWord;
         return;
     }
-    echo $key;
+
+    $oneWord = $words[$key];
+    echo empty($oneWord) ? $key : $oneWord;
     return;
 }
 ?>

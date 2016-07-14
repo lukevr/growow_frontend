@@ -1,5 +1,6 @@
 <?php
-    $words = array(
+
+    $defaults = array(
     "CQ1" => "What user(client) will get?",
     "CA1" => "User(client) will get a possibility to manage his/her own farm fields, order planting of the desired plants, watch live growing, communicate with a farmer and control everything with GroWOW mobile app. And definitely get tasty and healthy harvest as a result.",
     "CQ2" => "What should I have to start using GroWOW?",
@@ -42,4 +43,5 @@
     "persons.Slava.Position" => "CTO & Cofounder",
     "block.Q&A.Title" => "Questions and Answers",
     );
+
 ?>

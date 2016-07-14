@@ -512,7 +512,7 @@
                             <!-- Team cards Wrap -->
                             <div class="testimonials-v6">
                                 <div class="row margin-bottom-10">
-                                    <div class="col-md-5 md-margin-bottom-10">
+                                    <div class="col-md-6 md-margin-bottom-10">
                                         <div class="testimonials-info bg-color-light">
                                             <img class="rounded-x" src="img/victor_sq.jpg" alt="">
                                             <div class="testimonials-desc bg-color-light">
@@ -522,7 +522,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-6">
                                         <div class="testimonials-info bg-color-light"">
                                             <img class="rounded-x" src="/img/slava_sq.jpg" alt="">
                                             <div class="testimonials-desc bg-color-light"">
