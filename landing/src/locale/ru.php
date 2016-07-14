@@ -65,6 +65,7 @@
     "persons.Victor.Position" => "CEO и Основатель",
     "persons.Slava.Name" => "Вячеслав Желобков",
     "persons.Slava.Position" => "CTO и Сооснователь",
-);
+    "block.Q&A.Title" => "Вопросы и Ответы",
+    );
 
 ?>

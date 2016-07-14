@@ -91,123 +91,118 @@
 
 		<!--=== Content Part ===-->
 		<div id="content" class="content-md">
+            <!-- Questions and Answers block-->
+            <div class="container content">
+                <!--Striped and Hover Rows-->
 
-        <div class="container content">
-		<!--Striped and Hover Rows-->
-		    <div class="row">
-			<!--Striped Rows-->
-			<div class="col-md-6">
-			    <div class="panel panel-sea margin-bottom-40">
-				<div class="panel-heading">
-				    <h3 class="panel-title"><i class="fa fa-edit"></i> Answers for Clients</h3>
-				</div>
+                <div class="headline-center margin-bottom-60">
+                    <h2><?php getLoc("block.Q&A.Title");?></h2>
+                    <!--	<p>Integer odio ligula, tincidunt id volutpat et, imperdiet eget mi. Quisque laoreet porttitor turpis sed <a href="#">fermentum</a>. Nullam sodales blandit nisi, tristique tempor nunc hendrerit at. Sed posuere mollis orci</p> -->
+                </div><!--/end Headline Center-->
+                <div class="row">
+                    <!--Striped Rows-->
+                    <div class="col-md-6">
+                        <div class="panel panel-sea margin-bottom-40">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-edit"></i> Answers for Clients</h3>
+                            </div>
 
-<!--		    <div class="headline"><h2>General Questions</h2></div> -->
-		    <div class="panel-group acc-v1 margin-bottom-40" id="accordion">
-			<div class="panel panel-default">
-			    <div class="panel-heading">
-				<h4 class="panel-title">
-				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-					1. <?php getLoc("CQ1");?>
-				    </a>
-				</h4>
-			    </div>
-			    <div id="collapseOne" class="panel-collapse collapse in">
-				<div class="panel-body">
-				<?php getLoc("CA1");?>
-				</div>
-			    </div>
-			</div>
+                            <!--		    <div class="headline"><h2>General Questions</h2></div> -->
+                            <div class="panel-group acc-v1 margin-bottom-40" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                1. <?php getLoc("CQ1");?>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <?php getLoc("CA1");?>
+                                        </div>
+                                    </div>
+                                </div>
 
-			<div class="panel panel-default">
-			    <div class="panel-heading">
-				<h4 class="panel-title">
-				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-					2. <?php getLoc("CQ2");?>
-				    </a>
-				</h4>
-			    </div>
-			    <div id="collapseTwo" class="panel-collapse collapse">
-				<div class="panel-body">
-				    <p>
-				    <?php getLoc("CA21");?>
-				    </p>
-				    <ul class="list-unstyled">
-					<li><i class="fa fa-check color-green"></i> <?php getLoc("CA22");?></li>
-					<li><i class="fa fa-check color-green"></i> <?php getLoc("CA23");?></li>
-					<li><i class="fa fa-check color-green"></i> <?php getLoc("CA24");?></li>
-				    </ul>
-				    <p>
-				    <?php getLoc("CA25");?>
-				    </p>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                                2. <?php getLoc("CQ2");?>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <?php getLoc("CA2");?>
 
-				</div>
-			    </div>
-			</div>
+                                        </div>
+                                    </div>
+                                </div>
 
-			<div class="panel panel-default">
-			    <div class="panel-heading">
-				<h4 class="panel-title">
-				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-					3. <?php getLoc("CQ3");?>
-				    </a>
-				</h4>
-			    </div>
-			    <div id="collapseThree" class="panel-collapse collapse">
-				<div class="panel-body">
-				    <p>
-				    <?php getLoc("CA3");?>
-				    </p>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                                3. <?php getLoc("CQ3");?>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>
+                                                <?php getLoc("CA3");?>
+                                            </p>
 
-				</div>
-			    </div>
-			</div>
+                                        </div>
+                                    </div>
+                                </div>
 
-			<div class="panel panel-default">
-			    <div class="panel-heading">
-				<h4 class="panel-title">
-				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-					4. <?php getLoc("CQ4");?>
-				    </a>
-				</h4>
-			    </div>
-			    <div id="collapseFour" class="panel-collapse collapse">
-				<div class="panel-body">
-				<?php getLoc("CA4");?>
-				</div>
-			    </div>
-			</div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                                4. <?php getLoc("CQ4");?>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseFour" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <?php getLoc("CA4");?>
+                                        </div>
+                                    </div>
+                                </div>
 
-			<div class="panel panel-default">
-			    <div class="panel-heading">
-				<h4 class="panel-title">
-				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-					5. <?php getLoc("CQ5");?>
-				    </a>
-				</h4>
-			    </div>
-			    <div id="collapseFive" class="panel-collapse collapse">
-				<div class="panel-body">
-				    <?php getLoc("CA5");?>
-				</div>
-			    </div>
-			</div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                                5. <?php getLoc("CQ5");?>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseFive" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <?php getLoc("CA5");?>
+                                        </div>
+                                    </div>
+                                </div>
 
-			<div class="panel panel-default">
-			    <div class="panel-heading">
-				<h4 class="panel-title">
-				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-					6. <?php getLoc("CQ6");?>
-				    </a>
-				</h4>
-			    </div>
-			    <div id="collapseSix" class="panel-collapse collapse">
-				<div class="panel-body">
-				    <?php getLoc("CA6");?>
-				</div>
-			    </div>
-			</div>
-
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                                                6. <?php getLoc("CQ6");?>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseSix" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <?php getLoc("CA6");?>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--
 			<div class="panel panel-default">
 			    <div class="panel-heading">
 				<h4 class="panel-title">
@@ -222,98 +217,89 @@
 				</div>
 			    </div>
 			</div>
-		    </div><!--/acc-v1-->
-		    <!-- End General Questions -->
+-->
+                            </div><!--/acc-v1-->
+                            <!-- End General Questions -->
 
 
 
-			    </div>
-			</div>
-			<!--End Striped Rows-->
+                        </div>
+                    </div>
+                    <!--End Striped Rows-->
 
-			<!--Hover Rows-->
-			<div class="col-md-6">
-			    <div class="panel panel-yellow margin-bottom-40">
-				<div class="panel-heading">
-				    <h3 class="panel-title"><i class="fa fa-gear"></i> Answers for Farmers</h3>
-				</div>
+                    <!--Hover Rows-->
+                    <div class="col-md-6">
+                        <div class="panel panel-yellow margin-bottom-40">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><i class="fa fa-gear"></i> Answers for Farmers</h3>
+                            </div>
 
-<!--		    <div class="headline"><h2>General Questions</h2></div> -->
-		    <div class="panel-group acc-v1 margin-bottom-40" id="accordion1">
-			<div class="panel panel-default">
-			    <div class="panel-heading">
-				<h4 class="panel-title">
-				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
-					1. <?php getLoc("FQ1");?>
-				    </a>
-				</h4>
-			    </div>
-			    <div id="collapseOne1" class="panel-collapse collapse in">
-				<div class="panel-body">
-				<?php getLoc("FA1");?>
-				</div>
-			    </div>
-			</div>
+                            <!--		    <div class="headline"><h2>General Questions</h2></div> -->
+                            <div class="panel-group acc-v1 margin-bottom-40" id="accordion1">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
+                                                1. <?php getLoc("FQ1");?>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne1" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <?php getLoc("FA1");?>
+                                        </div>
+                                    </div>
+                                </div>
 
-			<div class="panel panel-default">
-			    <div class="panel-heading">
-				<h4 class="panel-title">
-				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
-					2. <?php getLoc("FQ2");?>
-				    </a>
-				</h4>
-			    </div>
-			    <div id="collapseTwo1" class="panel-collapse collapse">
-				<div class="panel-body">
-				    <p>
-				    <?php getLoc("FA21");?>
-				    </p>
-				    <ul class="list-unstyled">
-					<li><i class="fa fa-check color-green"></i> <?php getLoc("FA22");?></li>
-					<li><i class="fa fa-check color-green"></i> <?php getLoc("FA23");?></li>
-					<li><i class="fa fa-check color-green"></i> <?php getLoc("FA24");?></li>
-				    </ul>
-				    <p>
-				    <?php getLoc("FA25");?>
-				    </p>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
+                                                2. <?php getLoc("FQ2");?>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo1" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <?php getLoc("FA2");?>
 
-				</div>
-			    </div>
-			</div>
+                                        </div>
+                                    </div>
+                                </div>
 
-			<div class="panel panel-default">
-			    <div class="panel-heading">
-				<h4 class="panel-title">
-				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">
-					3. <?php getLoc("FQ3");?>
-				    </a>
-				</h4>
-			    </div>
-			    <div id="collapseThree1" class="panel-collapse collapse">
-				<div class="panel-body">
-				    <p>
-				    <?php getLoc("FA3");?>
-				    </p>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">
+                                                3. <?php getLoc("FQ3");?>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree1" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>
+                                                <?php getLoc("FA3");?>
+                                            </p>
 
-				</div>
-			    </div>
-			</div>
+                                        </div>
+                                    </div>
+                                </div>
 
-			<div class="panel panel-default">
-			    <div class="panel-heading">
-				<h4 class="panel-title">
-				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">
-					4. <?php getLoc("FQ4");?>
-				    </a>
-				</h4>
-			    </div>
-			    <div id="collapseFour1" class="panel-collapse collapse">
-				<div class="panel-body">
-				<?php getLoc("FA4");?>
-				</div>
-			    </div>
-			</div>
-
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">
+                                                4. <?php getLoc("FQ4");?>
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseFour1" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <?php getLoc("FA4");?>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--
 			<div class="panel panel-default">
 			    <div class="panel-heading">
 				<h4 class="panel-title">
@@ -358,26 +344,23 @@
 				</div>
 			    </div>
 			</div>
-		    </div><!--/acc-v1-->
-		    <!-- End General Questions -->
+-->
+                            </div><!--/acc-v1-->
+                            <!-- End General Questions -->
 
 
-			    </div>
-			</div>
-			<!--End Hover Rows-->
-		    </div>
-		    <!--End Striped and Hover Rows-->
+                        </div>
+                    </div>
+                    <!--End Hover Rows-->
+                </div>
+                <!--End Striped and Hover Rows-->
 
-		</div>
+            </div>
 
-
-
-
+            <!-- End of Questions and Answers block-->
 
 			<div class="container bg-color-light">
-
-
-                <br><br><br>
+                <br />
 				<!-- Service Box -->
 				<div class="headline-center margin-bottom-60">
 					<h2>GroWOW <?php getLoc("Vision and Goals");?></h2>
@@ -571,38 +554,38 @@
 
                 <div class="copyright">
                     <div class="container row">
-                                                  <div class="col-md-6">
-                                                  <p>
-                                                  2016 &copy; GroWOW <?php getLoc("All Rights Reserved");?>.
-                                                  <!--	<a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> -->
-                                                  </p>
-                                                  </div>
+                        <div class="col-md-6">
+                            <p>
+                                2016 &copy; GroWOW <?php getLoc("All Rights Reserved");?>.
+                                <!--	<a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> -->
+                            </p>
+                        </div>
 
-                                                  <!-- Social Links -->
-                                                  <div class="col-md-6">
-                                                  <ul class="footer-socials list-inline">
-                                                  <li>
-                                                  <a href="https://www.facebook.com/growow/" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
-                                                  <i class="fa fa-facebook"></i>
-                                                  </a>
-                                                  </li>
-                                                  <!--	<li>
-                                                  <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Plus">
-                                                  <i class="fa fa-google-plus"></i>
-                                                  </a>
-                                                  </li>
-                                                  -->
-                                                  <li>
-                                                  <a href="https://ua.linkedin.com/in/victorradchenko" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
-                                                  <i class="fa fa-linkedin"></i>
-                                                  </a>
-                                                  </li>
-                                                  </ul>
-                                                  </div>
-                                                  <!-- End Social Links -->
-                                                  </div>
+                        <!-- Social Links -->
+                        <div class="col-md-6">
+                            <ul class="footer-socials list-inline">
+                                <li>
+                                    <a href="https://www.facebook.com/growow/" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <!--	<li>
+                                <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Plus">
+                                <i class="fa fa-google-plus"></i>
+                                </a>
+                                </li>
+                                -->
+                                <li>
+                                    <a href="https://ua.linkedin.com/in/victorradchenko" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Social Links -->
+                    </div>
                 </div><!--/copyright-->
-            </div>
+        </div>
         </div>
         <!--=== End Footer Version 1 ===-->
     </div>
