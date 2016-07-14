@@ -55,12 +55,16 @@
 
     "Kyiv, Ukraine" => "Киев, Украина",
     "About Us" => "Про нас",
-    "Agriculture startup aiming to bring an new way of producing healthy food for every city resident and populate agriculture farms services worldwide." 
-	=> "Агро стартап призваный создать новую ценность агро продукции, которая выращена специально для вас и вашей семьи, а также продвигать агро-сервис локальних ферм на мировые рынки.",
+    "Agriculture startup aiming to bring an new way of producing healthy food for every city resident and populate agriculture farms services worldwide."
+	=> "Агростартап, призваный создать новую ценность агро продукции, которая выращена специально для вас и вашей семьи, а также продвигать агро-сервис локальних ферм на мировые рынки.",
 
     "Time Lapse" => "ускоренное видео",
     "Watch and share your farm time lapse!" => "Смотри и делись ускоренной видеозаписью собственной фермы!",
-
+    "meettheteam.Title" => "Наша команда",
+    "persons.Victor.Name" => "Виктор Радченко",
+    "persons.Victor.Position" => "CEO и Основатель",
+    "persons.Slava.Name" => "Вячеслав Желобков",
+    "persons.Slava.Position" => "CTO и Сооснователь",
 );
 
 ?>

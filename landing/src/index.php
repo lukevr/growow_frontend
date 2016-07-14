@@ -59,7 +59,7 @@
 
 		<!-- Promo Block -->
 		<div class="promo-bg-img-v2 fullheight promo-bg-fixed">
-            <a href="?lang=eng" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Eng</a>
+            <a href="?lang=en" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Eng</a>
             <a href="?lang=ua" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Укр</a>
             <a href="?lang=ru" class="btn-u btn-brd btn-brd-width-1 btn-brd-hover btn-u-light btn-u-block rounded-2x margin-right-2">Рус</a>
 			<div class="container valign__middle text-center" data-start="opacity: 1;" data-500="opacity: 0;">
@@ -91,7 +91,292 @@
 
 		<!--=== Content Part ===-->
 		<div id="content" class="content-md">
+
+        <div class="container content">
+		<!--Striped and Hover Rows-->
+		    <div class="row">
+			<!--Striped Rows-->
+			<div class="col-md-6">
+			    <div class="panel panel-sea margin-bottom-40">
+				<div class="panel-heading">
+				    <h3 class="panel-title"><i class="fa fa-edit"></i> Answers for Clients</h3>
+				</div>
+
+<!--		    <div class="headline"><h2>General Questions</h2></div> -->
+		    <div class="panel-group acc-v1 margin-bottom-40" id="accordion">
+			<div class="panel panel-default">
+			    <div class="panel-heading">
+				<h4 class="panel-title">
+				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+					1. <?php getLoc("CQ1");?>
+				    </a>
+				</h4>
+			    </div>
+			    <div id="collapseOne" class="panel-collapse collapse in">
+				<div class="panel-body">
+				<?php getLoc("CA1");?>
+				</div>
+			    </div>
+			</div>
+
+			<div class="panel panel-default">
+			    <div class="panel-heading">
+				<h4 class="panel-title">
+				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+					2. <?php getLoc("CQ2");?>
+				    </a>
+				</h4>
+			    </div>
+			    <div id="collapseTwo" class="panel-collapse collapse">
+				<div class="panel-body">
+				    <p>
+				    <?php getLoc("CA21");?>
+				    </p>
+				    <ul class="list-unstyled">
+					<li><i class="fa fa-check color-green"></i> <?php getLoc("CA22");?></li>
+					<li><i class="fa fa-check color-green"></i> <?php getLoc("CA23");?></li>
+					<li><i class="fa fa-check color-green"></i> <?php getLoc("CA24");?></li>
+				    </ul>
+				    <p>
+				    <?php getLoc("CA25");?>
+				    </p>
+
+				</div>
+			    </div>
+			</div>
+
+			<div class="panel panel-default">
+			    <div class="panel-heading">
+				<h4 class="panel-title">
+				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+					3. <?php getLoc("CQ3");?>
+				    </a>
+				</h4>
+			    </div>
+			    <div id="collapseThree" class="panel-collapse collapse">
+				<div class="panel-body">
+				    <p>
+				    <?php getLoc("CA3");?>
+				    </p>
+
+				</div>
+			    </div>
+			</div>
+
+			<div class="panel panel-default">
+			    <div class="panel-heading">
+				<h4 class="panel-title">
+				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+					4. <?php getLoc("CQ4");?>
+				    </a>
+				</h4>
+			    </div>
+			    <div id="collapseFour" class="panel-collapse collapse">
+				<div class="panel-body">
+				<?php getLoc("CA4");?>
+				</div>
+			    </div>
+			</div>
+
+			<div class="panel panel-default">
+			    <div class="panel-heading">
+				<h4 class="panel-title">
+				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+					5. <?php getLoc("CQ5");?>
+				    </a>
+				</h4>
+			    </div>
+			    <div id="collapseFive" class="panel-collapse collapse">
+				<div class="panel-body">
+				    <?php getLoc("CA5");?>
+				</div>
+			    </div>
+			</div>
+
+			<div class="panel panel-default">
+			    <div class="panel-heading">
+				<h4 class="panel-title">
+				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+					6. <?php getLoc("CQ6");?>
+				    </a>
+				</h4>
+			    </div>
+			    <div id="collapseSix" class="panel-collapse collapse">
+				<div class="panel-body">
+				    <?php getLoc("CA6");?>
+				</div>
+			    </div>
+			</div>
+
+			<div class="panel panel-default">
+			    <div class="panel-heading">
+				<h4 class="panel-title">
+				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+					7. <?php getLoc("CQ7");?>
+				    </a>
+				</h4>
+			    </div>
+			    <div id="collapseSeven" class="panel-collapse collapse">
+				<div class="panel-body">
+				    <?php getLoc("CA7");?>
+				</div>
+			    </div>
+			</div>
+		    </div><!--/acc-v1-->
+		    <!-- End General Questions -->
+
+
+
+			    </div>
+			</div>
+			<!--End Striped Rows-->
+
+			<!--Hover Rows-->
+			<div class="col-md-6">
+			    <div class="panel panel-yellow margin-bottom-40">
+				<div class="panel-heading">
+				    <h3 class="panel-title"><i class="fa fa-gear"></i> Answers for Farmers</h3>
+				</div>
+
+<!--		    <div class="headline"><h2>General Questions</h2></div> -->
+		    <div class="panel-group acc-v1 margin-bottom-40" id="accordion1">
+			<div class="panel panel-default">
+			    <div class="panel-heading">
+				<h4 class="panel-title">
+				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
+					1. <?php getLoc("FQ1");?>
+				    </a>
+				</h4>
+			    </div>
+			    <div id="collapseOne1" class="panel-collapse collapse in">
+				<div class="panel-body">
+				<?php getLoc("FA1");?>
+				</div>
+			    </div>
+			</div>
+
+			<div class="panel panel-default">
+			    <div class="panel-heading">
+				<h4 class="panel-title">
+				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
+					2. <?php getLoc("FQ2");?>
+				    </a>
+				</h4>
+			    </div>
+			    <div id="collapseTwo1" class="panel-collapse collapse">
+				<div class="panel-body">
+				    <p>
+				    <?php getLoc("FA21");?>
+				    </p>
+				    <ul class="list-unstyled">
+					<li><i class="fa fa-check color-green"></i> <?php getLoc("FA22");?></li>
+					<li><i class="fa fa-check color-green"></i> <?php getLoc("FA23");?></li>
+					<li><i class="fa fa-check color-green"></i> <?php getLoc("FA24");?></li>
+				    </ul>
+				    <p>
+				    <?php getLoc("FA25");?>
+				    </p>
+
+				</div>
+			    </div>
+			</div>
+
+			<div class="panel panel-default">
+			    <div class="panel-heading">
+				<h4 class="panel-title">
+				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">
+					3. <?php getLoc("FQ3");?>
+				    </a>
+				</h4>
+			    </div>
+			    <div id="collapseThree1" class="panel-collapse collapse">
+				<div class="panel-body">
+				    <p>
+				    <?php getLoc("FA3");?>
+				    </p>
+
+				</div>
+			    </div>
+			</div>
+
+			<div class="panel panel-default">
+			    <div class="panel-heading">
+				<h4 class="panel-title">
+				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">
+					4. <?php getLoc("FQ4");?>
+				    </a>
+				</h4>
+			    </div>
+			    <div id="collapseFour1" class="panel-collapse collapse">
+				<div class="panel-body">
+				<?php getLoc("FA4");?>
+				</div>
+			    </div>
+			</div>
+
+			<div class="panel panel-default">
+			    <div class="panel-heading">
+				<h4 class="panel-title">
+				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFive1">
+					5. <?php getLoc("FQ5");?>
+				    </a>
+				</h4>
+			    </div>
+			    <div id="collapseFive1" class="panel-collapse collapse">
+				<div class="panel-body">
+				    <?php getLoc("FA5");?>
+				</div>
+			    </div>
+			</div>
+
+			<div class="panel panel-default">
+			    <div class="panel-heading">
+				<h4 class="panel-title">
+				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseSix1">
+					6. <?php getLoc("FQ6");?>
+				    </a>
+				</h4>
+			    </div>
+			    <div id="collapseSix1" class="panel-collapse collapse">
+				<div class="panel-body">
+				    <?php getLoc("FA6");?>
+				</div>
+			    </div>
+			</div>
+
+			<div class="panel panel-default">
+			    <div class="panel-heading">
+				<h4 class="panel-title">
+				    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseSeven1">
+					7. <?php getLoc("FQ7");?>
+				    </a>
+				</h4>
+			    </div>
+			    <div id="collapseSeven1" class="panel-collapse collapse">
+				<div class="panel-body">
+				    <?php getLoc("FA7");?>
+				</div>
+			    </div>
+			</div>
+		    </div><!--/acc-v1-->
+		    <!-- End General Questions -->
+
+
+			    </div>
+			</div>
+			<!--End Hover Rows-->
+		    </div>
+		    <!--End Striped and Hover Rows-->
+
+		</div>
+
+
+
+
+
 			<div class="container bg-color-light">
+
+
                 <br><br><br>
 				<!-- Service Box -->
 				<div class="headline-center margin-bottom-60">
@@ -200,59 +485,8 @@
                 <!-- End Youtube Video -->
             </div>
             <!-- End Video Blocks -->
-</br>
-</br>
-
-	    <!--=== Team v7 ===-->
-	    <div class="container-fluid">
-        <div class="container bg-color-light content">
-            <div class="headline-center margin-bottom-30">
-                <h2><?php getLoc("SAIL HO!");?></h2>
-            </div>
-
-		<!-- Team Blcoks -->
-		<div class="row team-v7 no-gutter equal-height-columns">
-		    <div class="col-md-6 team-arrow-right">
-			<div class="dp-table">
-			    <div class="equal-height-column dp-table-cell team-v7-in" style="height: 555px;">
-				<span class="team-v7-name">Victor Radchenko</span>
-				<span class="team-v7-position">Founder / CEO</span>
-			<!--	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget varius leo, at elementum eros. Fusce tristique, ipsum egestas fermentum imperdiet, ex nunc iaculis sem, a semper augue turpis ut nulla. Nam condimentum arcu eu diam gravida cursus. Morbi ante eros, lobortis sit amet tempus in, fermentum vitae neque.</p> -->
-				<ul class="list-inline social-icons-v1">
-				    <li><a href="https://ua.linkedin.com/in/victorradchenko"><i class="fa fa-linkedin"></i></a></li>
-				</ul>
-			    </div>
-			</div>
-		    </div>
-		    <div class="col-md-6 team-v7-img">
-			<img class="img-responsive full-width equal-height-column" src="img/victor.jpg" alt="" style="height: 555px;">
-		    </div>
-		</div>
-		<!-- End Team Blcoks -->
-
-		<!-- Team Blcoks -->
-		<div class="row team-v7 no-gutter equal-height-columns">
-		    <div class="col-md-6 col-md-push-6 team-arrow-left">
-			<div class="dp-table">
-			    <div class="equal-height-column dp-table-cell team-v7-in" style="height: 555px;">
-				<span class="team-v7-name">Vyacheslav Zhelobkov</span>
-				<span class="team-v7-position">Co-Founder / CTO</span>
-	<!--			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget varius leo, at elementum eros. Fusce tristique, ipsum egestas fermentum imperdiet, ex nunc iaculis sem, a semper augue turpis ut nulla. Nam condimentum arcu eu diam gravida cursus. Morbi ante eros, lobortis sit amet tempus in, fermentum vitae neque.</p> -->
-				<ul class="list-inline social-icons-v1">
-				    <li><a href="https://www.linkedin.com/in/zhelobkov"><i class="fa fa-linkedin"></i></a></li>
-				</ul>
-			    </div>
-			</div>
-		    </div>
-		    <div class="col-md-6 col-md-pull-6 team-v7-img">
-			<img class="img-responsive full-width equal-height-column" src="img/slava.jpg" alt="" style="height: 555px;">
-		    </div>
-		</div>
-		<!-- End Team Blcoks -->
-	    </div>
-
-</br>
-</br>
+<br />
+<br />
         <!--=== Preregister Block v6 ===-->
 <!--        <a name="register"></a>-->
         <div class="container bg-color-growow content">
@@ -278,124 +512,102 @@
                 </div>
             </div><!--/end row-->
         </div>
-
-
-
-
         <!--=== Preregister Block v6 ===-->
-	</br>
-	</br>
+        <br />
+        <!--=== Footer Version 1 ===-->
+        <div class="footer-v1">
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <!-- About -->
+                        <div class="col-md-9 md-margin-bottom-40">
+                            <div class="headline">
+                                <h2 class="headline"><?php getLoc("About Us");?></h2>
+                            </div>
+                            <!--	    <a href="index.php"><img id="logo-footer" class="footer-logo" src="assets/img/logo2-default.png" alt=""></a>  -->
+                            <p><?php getLoc("Agriculture startup aiming to bring an new way of producing healthy food for every city resident and populate agriculture farms services worldwide.");?></p>
+                            <!-- Team cards Wrap -->
+                            <div class="testimonials-v6">
+                                <div class="row margin-bottom-10">
+                                    <div class="col-md-5 md-margin-bottom-10">
+                                        <div class="testimonials-info bg-color-light">
+                                            <img class="rounded-x" src="img/victor_sq.jpg" alt="">
+                                            <div class="testimonials-desc bg-color-light">
+                                                <span class="team-v7-name"><strong><?php getLoc("persons.Victor.Name");?></strong></span>
+                                                <span class="team-v7-position"><?php getLoc("persons.Victor.Position");?></span>
+                                                <a class="social-icons-v1" href="https://ua.linkedin.com/in/victorradchenko"><i class="fa fa-linkedin"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="testimonials-info bg-color-light"">
+                                            <img class="rounded-x" src="/img/slava_sq.jpg" alt="">
+                                            <div class="testimonials-desc bg-color-light"">
+                                                <span class="team-v7-name"><strong><?php getLoc("persons.Slava.Name");?></strong></span>
+                                                <span class="team-v7-position"><?php getLoc("persons.Slava.Position");?></span>
+                                                <a class="social-icons-v1" href="https://ua.linkedin.com/in/zhelobkov"><i class="fa fa-linkedin"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--/end row-->
+                            </div>
+                            <!-- End Team cards -->
+                        </div><!--/col-md-3-->
+                        <!-- End About -->
 
+                        <!-- Address -->
+                        <div class="col-md-3 map-img md-margin-bottom-40">
+                            <div class="headline"><h2><?php getLoc("Contact Us");?></h2></div>
+                            <address class="md-margin-bottom-40">
+                                <?php getLoc("persons.Victor.Name"); print(" - "); getLoc("persons.Victor.Position");?> <br />
+                                <?php getLoc("Kyiv, Ukraine");?> <br />
+                                <?php getLoc("Phone");?>: +38 068 991 09 25 <br />
+                                <?php getLoc("Email");?>: <a href="mailto:victor.rko@growow.org" class="">victor.rko@growow.org</a>
+                            </address>
+                        </div><!--/col-md-3-->
+                        <!-- End Address -->
+                    </div>
+                </div><!--/footer-->
 
-	<!--=== Footer Version 1 ===-->
-	<div class="footer-v1">
-	    <div class="footer">
-		<div class="container">
-		    <div class="row">
-			<!-- About -->
-			<div class="col-md-9 md-margin-bottom-40">
-			<div class="headline"><h2><?php getLoc("About Us");?></h2></div>
-		<!--	    <a href="index.php"><img id="logo-footer" class="footer-logo" src="assets/img/logo2-default.png" alt=""></a>  -->
-			    <p><?php getLoc("Agriculture startup aiming to bring an new way of producing healthy food for every city resident and populate agriculture farms services worldwide.");?></p>
+                <div class="copyright">
+                    <div class="container row">
+                                                  <div class="col-md-6">
+                                                  <p>
+                                                  2016 &copy; GroWOW <?php getLoc("All Rights Reserved");?>.
+                                                  <!--	<a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> -->
+                                                  </p>
+                                                  </div>
 
-			</div><!--/col-md-3-->
-			<!-- End About -->
-
-			<!-- Address -->
-			<div class="col-md-3 map-img md-margin-bottom-40">
-			    <div class="headline"><h2><?php getLoc("Contact Us");?></h2></div>
-			    <address class="md-margin-bottom-40">
-				<?php getLoc("Victor Radchenko - CEO&Founder");?> <br />
-				<?php getLoc("Kyiv, Ukraine");?> <br />
-				<?php getLoc("Phone");?>: +38 068 991 09 25 <br />
-				<?php getLoc("Email");?>: <a href="mailto:victor.rko@growow.org" class="">victor.rko@growow.org</a>
-			    </address>
-			</div><!--/col-md-3-->
-			<!-- End Address -->
-		    </div>
-		</div>
-	    </div><!--/footer-->
-
-	    <div class="copyright">
-		<div class="container">
-		    <div class="row">
-			<div class="col-md-6">
-			    <p>
-				2016 &copy; GroWOW <?php getLoc("All Rights Reserved");?>.
-			<!--	<a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> -->
-			    </p>
-			</div>
-
-			<!-- Social Links -->
-			<div class="col-md-6">
-			    <ul class="footer-socials list-inline">
-				<li>
-				    <a href="https://www.facebook.com/growow/" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
-					<i class="fa fa-facebook"></i>
-				    </a>
-				</li>
-			<!--	<li>
-				    <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Plus">
-					<i class="fa fa-google-plus"></i>
-				    </a>
-				</li>
-			-->
-				<li>
-				    <a href="https://ua.linkedin.com/in/victorradchenko" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
-					<i class="fa fa-linkedin"></i>
-				    </a>
-				</li>
-			    </ul>
-			</div>
-			<!-- End Social Links -->
-		    </div>
-		</div>
-	    </div><!--/copyright-->
-	</div>
-	<!--=== End Footer Version 1 ===-->
-
-
-
-
-	</div>
+                                                  <!-- Social Links -->
+                                                  <div class="col-md-6">
+                                                  <ul class="footer-socials list-inline">
+                                                  <li>
+                                                  <a href="https://www.facebook.com/growow/" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+                                                  <i class="fa fa-facebook"></i>
+                                                  </a>
+                                                  </li>
+                                                  <!--	<li>
+                                                  <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Plus">
+                                                  <i class="fa fa-google-plus"></i>
+                                                  </a>
+                                                  </li>
+                                                  -->
+                                                  <li>
+                                                  <a href="https://ua.linkedin.com/in/victorradchenko" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
+                                                  <i class="fa fa-linkedin"></i>
+                                                  </a>
+                                                  </li>
+                                                  </ul>
+                                                  </div>
+                                                  <!-- End Social Links -->
+                                                  </div>
+                </div><!--/copyright-->
+            </div>
+        </div>
+        <!--=== End Footer Version 1 ===-->
     </div>
-
-
     <!-- End Content Part -->
 
-	<!-- Sliding Panel -->
-	<div class="sliding-panel bg-color-darker">
-		<div class="sliding-panel-inner sliding-panel-scrollable fullscreen">
-			<ul class="sliding-navigation">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="page_about3.html">Abour Us</a></li>
-				<li><a href="page_services.html">Services</a></li>
-				<li><a href="page_profile.html">Profile</a></li>
-				<li><a href="blog_large_right_sidebar1.html">Blog</a></li>
-				<li><a href="portfolio_3_columns_grid_text.html">Our Work</a></li>
-				<li><a href="page_contact1.html">Contact Us</a></li>
-			</ul>
-
-			<h4>Contacts</h4>
-			<address>
-				58, Lorem Lis Street, Central Ave<br>
-				New York, US<br><br>
-				Phone: 938 334 6049<br>
-				Fax: 938 334 6050<br><br>
-				Email: <a href="mailto:#">info@htmlstream.com</a><br>
-			</address>
-
-			<ul class="list-inline social-icons-v1 social-icons-v1--dark">
-				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-				<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-			</ul>
-		</div>
-
-		<a href="javascript:void(0);" class="sliding-panel__close">Close</a>
-	</div>
-	<!-- End Sliding Panel -->
 
 	<!-- JS Global Compulsory -->
 	<script src="assets/plugins/jquery/jquery.min.js"></script>
@@ -437,6 +649,7 @@
 		<![endif]-->
 
         <!-- Smooth scrolling-->
+<!--
         <script>
             $(function() {
                 $('a[href*="#"]:not([href="#"])').click(function() {
@@ -453,6 +666,8 @@
                 });
             });
         </script>
+-->
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -7,7 +7,7 @@
  */
 
 // try to retrieve and set the locale
-$lang="ru";
+$lang="en";
 
 if( session_start() ){
     if( !empty($_SESSION['lang']) ) {

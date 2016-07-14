@@ -54,13 +54,17 @@
     "AS A SERVICE - VIDEO PRESENTATION" => "СЕРВІС - ВІДЕО ПРЕЗЕНТАЦІЯ",
 
     "About Us" => "Про нас",
-    "Agriculture startup aiming to bring an new way of producing healthy food for every city resident and populate agriculture farms services worldwide." 
+    "Agriculture startup aiming to bring an new way of producing healthy food for every city resident and populate agriculture farms services worldwide."
 	=> "Агро стартап, що має на меті створення нової вартості корисної сільгосппродукції, як такої що вирощена персонально для вас і вашої родини, а також популяризація агро-сервісу локальних ферм на світові ринки.",
     "Kyiv, Ukraine" => "Київ, Україна",
     "Time Lapse" => "прискорене відео",
     "Watch and share your farm time lapse!" => "Дивись і поширюй пріскорене відео з власної ферми",
-    "" => ""
-
+    "" => "",
+    "meettheteam.Title" => "Наша команда",
+    "persons.Victor.Name" => "Вiктор Радченко",
+    "persons.Victor.Position" => "CEO та Засновник",
+    "persons.Slava.Name" => "В'ячеслав Желобков",
+    "persons.Slava.Position" => "CTO та Засновник",
 
 
 );
