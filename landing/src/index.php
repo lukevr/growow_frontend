@@ -80,8 +80,8 @@
 
 
 				<div class="animated fadeInUp wow" data-wow-duration="1.2s" data-wow-delay="2s">
-                    <a href="#content" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10"><?php getLoc("Learn More");?></a>
-                    <a href="#register" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10"><?php getLoc("Bonus For Preregistration!");?> </a>
+                    <div id="learnMore" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10"><?php getLoc("Learn More");?></div>
+                    <div id="register" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10"><?php getLoc("Bonus For Preregistration!");?> </div>
                 <!--    <a href="#register" class="btn-u btn-brd btn-brd-width-2 btn-brd-hover btn-u-light btn-u-block rounded-4x margin-right-10"><?php getLoc("Preregister farmer");?>	</a>	 -->
 				</div>
 			</div>
@@ -472,7 +472,7 @@
 <br />
         <!--=== Preregister Block v6 ===-->
 <!--        <a name="register"></a>-->
-        <div class="container bg-color-growow content">
+        <div id="registration" class="container bg-color-growow content">
             <div class="headline-center margin-bottom-30">
                 <h2 id="register"><?php getLoc("REGISTER TODAY AND GET BONUS!");?></h2>
             </div>
@@ -631,33 +631,31 @@
 		<script src="assets/plugins/placeholder-IE-fixes.js"></script>
 <![endif]-->
 
-        <!-- Smooth scrolling-->
-        <script>
-            $(function() {
-                $('a[href*="#"]:not([href="#"])').click(function() {
-                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                        var target = $(this.hash);
-                        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                        if (target.length) {
-                            $('html, body').animate({
-                                scrollTop: target.offset().top
-                            }, 1000);
-                            return false;
-                        }
-                    }
-                });
-            });
-        </script>
+    <!-- Smooth scrolling to Learn more and Registration blocks -->
+    <!-- No general smooth scrolling to #href due it's usage in Q&A block -->
+    <script>
+        $("#learnMore").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#content").offset().top
+            }, 500);
+        });
+        $("#register").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#registration").offset().top
+            }, 1000);
+        });
+    </script>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <!-- Guess what it is -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-80240059-1', 'auto');
-  ga('send', 'pageview');
+      ga('create', 'UA-80240059-1', 'auto');
+      ga('send', 'pageview');
 
-</script>
-	</body>
-	</html>
+    </script>
+</body>
+</html>
