@@ -629,10 +629,9 @@
 		<script src="assets/plugins/respond.js"></script>
 		<script src="assets/plugins/html5shiv.js"></script>
 		<script src="assets/plugins/placeholder-IE-fixes.js"></script>
-		<![endif]-->
+<![endif]-->
 
         <!-- Smooth scrolling-->
-<!--
         <script>
             $(function() {
                 $('a[href*="#"]:not([href="#"])').click(function() {
@@ -649,7 +648,6 @@
                 });
             });
         </script>
--->
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
